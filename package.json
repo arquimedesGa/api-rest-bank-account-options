@@ -4,21 +4,26 @@
   "description": "projects for option bank account, deposit, register controller and withdraw",
   "main": "index.js",
   "scripts": {
-    "dev": "./index.js"
+    "dev": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arquimedesGa/api-rest-bank-account-options.git"
   },
-  "author": "Arquimedes Rodriguez",
+  "author": "ARQUIMEDES ARRIOJAS",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arquimedesGa/api-rest-bank-account-options/issues"
   },
   "homepage": "https://github.com/arquimedesGa/api-rest-bank-account-options#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "pg": "^8.9.0"
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
